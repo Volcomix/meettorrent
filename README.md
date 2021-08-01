@@ -1,6 +1,8 @@
 # [WIP] MeetTorrent
 
-This is the very first step of a GMeet clone which doesn't require any dedicated server. WebTorrent trackers are used for WebRTC signaling, then the meeting is fully peer-to-peer (P2P) through WebRTC.
+> This is the very first step of a GMeet clone which doesn't require any dedicated server. WebTorrent trackers are used for WebRTC signaling, then the meeting is fully peer-to-peer (P2P) through WebRTC.
+
+:point_right: https://volcomix.github.io/meettorrent
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
