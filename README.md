@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# [WIP] MeetTorrent
+
+This is the very first step of a GMeet clone which doesn't require any dedicated server. WebTorrent trackers are used for WebRTC signaling, then the meeting is fully peer-to-peer (P2P) through WebRTC.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
