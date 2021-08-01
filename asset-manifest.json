@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/meettorrent/static/css/main.003945df.chunk.css",
-    "main.js": "/meettorrent/static/js/main.5cfdb8ca.chunk.js",
-    "main.js.map": "/meettorrent/static/js/main.5cfdb8ca.chunk.js.map",
+    "main.js": "/meettorrent/static/js/main.0f8df53c.chunk.js",
+    "main.js.map": "/meettorrent/static/js/main.0f8df53c.chunk.js.map",
     "runtime-main.js": "/meettorrent/static/js/runtime-main.9055e345.js",
     "runtime-main.js.map": "/meettorrent/static/js/runtime-main.9055e345.js.map",
     "static/js/2.f8067049.chunk.js": "/meettorrent/static/js/2.f8067049.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9055e345.js",
     "static/js/2.f8067049.chunk.js",
     "static/css/main.003945df.chunk.css",
-    "static/js/main.5cfdb8ca.chunk.js"
+    "static/js/main.0f8df53c.chunk.js"
   ]
 }
