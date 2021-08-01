@@ -16,7 +16,7 @@ export default function App() {
   const [meetingHash, setMeetingHash] = useState('')
 
   return (
-    <Router>
+    <Router basename="/meettorrent">
       <Switch>
         <Route exact path="/">
           <Link to={`/${newMeetingHash}`}>New meeting</Link>
