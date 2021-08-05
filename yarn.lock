@@ -2853,7 +2853,7 @@ batch@0.6.1:
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
   integrity sha1-3DQxT05nkxgJP8dgJyUl+UvyXBY=
 
-bencode@^2.0.1:
+bencode@^2.0.1, bencode@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/bencode/-/bencode-2.0.2.tgz#e79305ed3e3ab89843cbedc9574fccc067fd3bfe"
   integrity sha512-0ilVjnE2diLdbec/3KN14SP0KE85wh8v/FceNRMbAB2ioc3yTj9tgqdoK9tFEH++TZ10JreTS29qTwg7+SpTiQ==
@@ -3777,12 +3777,12 @@ create-hmac@^1.1.0, create-hmac@^1.1.4, create-hmac@^1.1.7:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-torrent@^4.7.1:
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/create-torrent/-/create-torrent-4.7.1.tgz#8fd32f58a253ab01add10f9bce5af10163916f67"
-  integrity sha512-OMT0cYHa35p55jqRPP5Cilow/iD9tk+1lRlgmGWNcAhP3e37DwgGnEPkgTU40UTSPfZpaLiWY3wGc929Q2WaRw==
+create-torrent@^4.7.2:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/create-torrent/-/create-torrent-4.7.2.tgz#78720bcd8fc92824c0b1cb26bbe21c3165a07885"
+  integrity sha512-8T5zMK0WhOfm2QubE/ZFVxaoCmhZk6I01ze53MIIe1HI0dxsvYohkNtFXEHL5oXi1vkbJOD/yLVJuUc4cCziog==
   dependencies:
-    bencode "^2.0.1"
+    bencode "^2.0.2"
     block-stream2 "^2.1.0"
     filestream "^5.0.0"
     is-file "^1.0.0"
