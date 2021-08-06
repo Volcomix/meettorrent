@@ -14,7 +14,7 @@
     "@types/react-router-dom": "^5.1.8",
     "@types/simple-peer": "^9.11.1",
     "bittorrent-tracker": "^9.17.4",
-    "create-torrent": "^4.7.1",
+    "create-torrent": "^5.0.0",
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
