@@ -1,0 +1,24 @@
+name: GitHub Pages
+on:
+  workflow_run:
+    workflows: ['CI']
+    branches: [master]
+    types:
+      - completed
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Deploy
+        if: ${{ github.ref == 'refs/heads/main' }}
+        run: |
+          git remote set-url origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}
+          yarn deploy -u "GitHub Actions <github-actions@users.noreply.github.com>"

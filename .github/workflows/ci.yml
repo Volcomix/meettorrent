@@ -11,8 +11,5 @@ jobs:
       - name: Install dependencies
         run: yarn
 
-      - name: Deploy
-        if: ${{ github.ref == 'refs/heads/main' }}
-        run: |
-          git remote set-url origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}
-          yarn deploy -u "GitHub Actions <github-actions@users.noreply.github.com>"
+      - name: Test
+        run: yarn test
