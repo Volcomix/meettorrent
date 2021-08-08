@@ -11,5 +11,6 @@ jobs:
       - name: Install dependencies
         run: yarn
 
-      - name: Test
-        run: yarn test
+      # TODO Uncomment when some tests are ready
+      # - name: Test
+      #   run: yarn test
