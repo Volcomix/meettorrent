@@ -3777,10 +3777,10 @@ create-hmac@^1.1.0, create-hmac@^1.1.4, create-hmac@^1.1.7:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-torrent@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/create-torrent/-/create-torrent-5.0.0.tgz#93cfaa2bdb26d7c1cc8fe40f69229892013ef18d"
-  integrity sha512-FpflZjocxYhunHsfSSd2BS+M+YtmzBpgo4nrc+NmVHfFmzFs1XXsJS/+h2EPtIxezkIRIg0u/htIpVOmrbHuSg==
+create-torrent@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/create-torrent/-/create-torrent-5.0.1.tgz#a09e47af1af347b57fae7bd9ea67025df5cd121d"
+  integrity sha512-fVvg1YYSogo3TlU1WFeTt937nhGQlf5KtB6M2HyDa/U02dbeMBE2AY9PcPlMufXNQoM/UCO28y26EmuApM7ZmA==
   dependencies:
     bencode "^2.0.2"
     block-stream2 "^2.1.0"
