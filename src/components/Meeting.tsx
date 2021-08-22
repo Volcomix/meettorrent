@@ -109,11 +109,19 @@ export default function Meeting() {
       <div>Peers connected: {Object.keys(peers).length + 1}</div>
       {myStream && (
         <video
-          ref={(videoElement) =>
-            videoElement &&
-            (videoElement.srcObject as any)?.id !== myStream.id &&
-            (videoElement.srcObject = myStream)
-          }
+          ref={(videoElement) => {
+            if (!videoElement) {
+              return
+            }
+            const [newVideoTrack] = myStream.getVideoTracks()
+            const [currentVideoTrack] = (
+              videoElement.srcObject as MediaStream | null
+            )?.getVideoTracks() ?? [undefined]
+            if (newVideoTrack.id === currentVideoTrack?.id) {
+              return
+            }
+            videoElement.srcObject = new MediaStream([newVideoTrack])
+          }}
           autoPlay
           playsInline
           controls={false}
