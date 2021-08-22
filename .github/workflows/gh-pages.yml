@@ -2,7 +2,7 @@ name: GitHub Pages
 on:
   workflow_run:
     workflows: ['CI']
-    branches: [master]
+    branches: [main]
     types:
       - completed
 jobs:
