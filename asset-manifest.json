@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/meettorrent/static/css/main.003945df.chunk.css",
-    "main.js": "/meettorrent/static/js/main.a870588c.chunk.js",
-    "main.js.map": "/meettorrent/static/js/main.a870588c.chunk.js.map",
-    "runtime-main.js": "/meettorrent/static/js/runtime-main.486fde30.js",
-    "runtime-main.js.map": "/meettorrent/static/js/runtime-main.486fde30.js.map",
-    "static/js/2.84f969f3.chunk.js": "/meettorrent/static/js/2.84f969f3.chunk.js",
-    "static/js/2.84f969f3.chunk.js.map": "/meettorrent/static/js/2.84f969f3.chunk.js.map",
-    "static/js/3.02142aa7.chunk.js": "/meettorrent/static/js/3.02142aa7.chunk.js",
-    "static/js/3.02142aa7.chunk.js.map": "/meettorrent/static/js/3.02142aa7.chunk.js.map",
+    "main.js": "/meettorrent/static/js/main.db8717f2.chunk.js",
+    "main.js.map": "/meettorrent/static/js/main.db8717f2.chunk.js.map",
+    "runtime-main.js": "/meettorrent/static/js/runtime-main.e4e7cc80.js",
+    "runtime-main.js.map": "/meettorrent/static/js/runtime-main.e4e7cc80.js.map",
+    "static/js/2.30eaf51b.chunk.js": "/meettorrent/static/js/2.30eaf51b.chunk.js",
+    "static/js/2.30eaf51b.chunk.js.map": "/meettorrent/static/js/2.30eaf51b.chunk.js.map",
+    "static/js/3.4e062e41.chunk.js": "/meettorrent/static/js/3.4e062e41.chunk.js",
+    "static/js/3.4e062e41.chunk.js.map": "/meettorrent/static/js/3.4e062e41.chunk.js.map",
     "index.html": "/meettorrent/index.html",
     "static/css/main.003945df.chunk.css.map": "/meettorrent/static/css/main.003945df.chunk.css.map",
-    "static/js/2.84f969f3.chunk.js.LICENSE.txt": "/meettorrent/static/js/2.84f969f3.chunk.js.LICENSE.txt"
+    "static/js/2.30eaf51b.chunk.js.LICENSE.txt": "/meettorrent/static/js/2.30eaf51b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.486fde30.js",
-    "static/js/2.84f969f3.chunk.js",
+    "static/js/runtime-main.e4e7cc80.js",
+    "static/js/2.30eaf51b.chunk.js",
     "static/css/main.003945df.chunk.css",
-    "static/js/main.a870588c.chunk.js"
+    "static/js/main.db8717f2.chunk.js"
   ]
 }
