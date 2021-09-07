@@ -1914,10 +1914,10 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
-"@types/simple-peer@^9.11.1":
-  version "9.11.1"
-  resolved "https://registry.yarnpkg.com/@types/simple-peer/-/simple-peer-9.11.1.tgz#bef6ff1e75178d83438e33aa6a4df2fd98fded1d"
-  integrity sha512-Pzqbau/WlivSXdRC0He2Wz/ANj2wbi4gzJrtysZz93jvOyI2jo/ibMjUe6AvPllFl/UO6QXT/A0Rcp44bDQB5A==
+"@types/simple-peer@^9.11.2":
+  version "9.11.2"
+  resolved "https://registry.yarnpkg.com/@types/simple-peer/-/simple-peer-9.11.2.tgz#6ae3ec1b2b4500119610d1e465d02b499975858d"
+  integrity sha512-f8y4OTtqWo4m8WnoXKdZNE0Jh3zLTXAlCsKPC+xTOKcf0SEjsDhW0mrbOwaowNHqXrO77GhW1kCAsDLbq4I6Xw==
   dependencies:
     "@types/node" "*"
 
