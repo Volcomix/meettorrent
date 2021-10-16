@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/meettorrent/static/css/main.003945df.chunk.css",
-    "main.js": "/meettorrent/static/js/main.47c2823e.chunk.js",
-    "main.js.map": "/meettorrent/static/js/main.47c2823e.chunk.js.map",
-    "runtime-main.js": "/meettorrent/static/js/runtime-main.e4e7cc80.js",
-    "runtime-main.js.map": "/meettorrent/static/js/runtime-main.e4e7cc80.js.map",
-    "static/js/2.0b8f1355.chunk.js": "/meettorrent/static/js/2.0b8f1355.chunk.js",
-    "static/js/2.0b8f1355.chunk.js.map": "/meettorrent/static/js/2.0b8f1355.chunk.js.map",
-    "static/js/3.4e062e41.chunk.js": "/meettorrent/static/js/3.4e062e41.chunk.js",
-    "static/js/3.4e062e41.chunk.js.map": "/meettorrent/static/js/3.4e062e41.chunk.js.map",
+    "main.js": "/meettorrent/static/js/main.c52b4568.chunk.js",
+    "main.js.map": "/meettorrent/static/js/main.c52b4568.chunk.js.map",
+    "runtime-main.js": "/meettorrent/static/js/runtime-main.5ff01091.js",
+    "runtime-main.js.map": "/meettorrent/static/js/runtime-main.5ff01091.js.map",
+    "static/js/2.3f95b0e8.chunk.js": "/meettorrent/static/js/2.3f95b0e8.chunk.js",
+    "static/js/2.3f95b0e8.chunk.js.map": "/meettorrent/static/js/2.3f95b0e8.chunk.js.map",
+    "static/js/3.4be0bbe8.chunk.js": "/meettorrent/static/js/3.4be0bbe8.chunk.js",
+    "static/js/3.4be0bbe8.chunk.js.map": "/meettorrent/static/js/3.4be0bbe8.chunk.js.map",
     "index.html": "/meettorrent/index.html",
     "static/css/main.003945df.chunk.css.map": "/meettorrent/static/css/main.003945df.chunk.css.map",
-    "static/js/2.0b8f1355.chunk.js.LICENSE.txt": "/meettorrent/static/js/2.0b8f1355.chunk.js.LICENSE.txt"
+    "static/js/2.3f95b0e8.chunk.js.LICENSE.txt": "/meettorrent/static/js/2.3f95b0e8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4e7cc80.js",
-    "static/js/2.0b8f1355.chunk.js",
+    "static/js/runtime-main.5ff01091.js",
+    "static/js/2.3f95b0e8.chunk.js",
     "static/css/main.003945df.chunk.css",
-    "static/js/main.47c2823e.chunk.js"
+    "static/js/main.c52b4568.chunk.js"
   ]
 }
