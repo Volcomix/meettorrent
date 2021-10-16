@@ -12,7 +12,7 @@
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.8",
-    "@types/simple-peer": "^9.11.1",
+    "@types/simple-peer": "^9.11.3",
     "bittorrent-tracker": "^9.18.2",
     "create-torrent": "^5.0.1",
     "gh-pages": "^3.2.3",
