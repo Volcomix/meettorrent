@@ -1,39 +1,14 @@
-import React, { useState } from 'react'
-import {
-  BrowserRouter as Router,
-  Link,
-  Redirect,
-  Route,
-  Switch,
-} from 'react-router-dom'
-import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Home from './components/Home'
 import Meeting from './components/Meeting'
-import randomBytes from './helpers/randomBytes'
-
-const newMeetingHash = randomBytes(20)
 
 export default function App() {
-  const [meetingHash, setMeetingHash] = useState('')
-
   return (
     <Router basename="/meettorrent">
-      <Switch>
-        <Route exact path="/">
-          <Link to={`/${newMeetingHash}`}>New meeting</Link>
-          <input
-            placeholder="Past meeting hash"
-            value={meetingHash}
-            onChange={(event) => setMeetingHash(event.target.value)}
-          />
-          {meetingHash && <Link to={`/${meetingHash}`}>Join</Link>}
-        </Route>
-        <Route path="/:meetingHash([0-9a-f]{40})">
-          <Meeting />
-        </Route>
-        <Route>
-          <Redirect to="/" />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/:meetingHash" element={<Meeting />} />
+      </Routes>
     </Router>
   )
 }

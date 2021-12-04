@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import randomBytes from '../helpers/randomBytes'
 import { Peer } from '../types/peer'
-import './Meeting.css'
 
 const createPeerBackup = WebSocketTracker.prototype._createPeer
 
@@ -13,7 +12,7 @@ const peerId = randomBytes(20)
 const textDecoder = new TextDecoder('utf-8')
 
 export default function Meeting() {
-  const { meetingHash } = useParams<{ meetingHash: string }>()
+  const { meetingHash } = useParams()
   const [peers, setPeers] = useState<{ [peerId: string]: Peer }>({})
   const [myStream, setMyStream] = useState<MediaStream>()
   const [remoteStreams, setRemoteStreams] = useState<{
